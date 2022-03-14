@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>135</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>402</width>
+    <height>135</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>402</width>
+    <height>135</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ISS</string>
+  </property>
+  <property name="windowOpacity">
+   <double>0.800000000000000</double>
+  </property>
+  <widget class="QPushButton" name="btnFermer">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>100</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Position</string>
+   </property>
+   <widget class="QLabel" name="lLatitude">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Latitude: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lLongitude">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Longitude:</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
